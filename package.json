@@ -1,0 +1,27 @@
+{
+  "name": "gulpfile",
+  "version": "1.0.0",
+  "description": "Gulpfile for my sites",
+  "main": "gulpfile.js",
+  "scripts": {
+    "install": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d2emon/gulpfile.git"
+  },
+  "keywords": [
+    "gulp"
+  ],
+  "author": "Dmitry Kutsenko <d2emonium@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/d2emon/gulpfile/issues"
+  },
+  "homepage": "https://github.com/d2emon/gulpfile#readme",
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1"
+  }
+}
