@@ -9,7 +9,14 @@ gulp.task('clean', function() {
 // Prepare js
 gulp.task('compile', function(){
   return gulp.src([
-    'src/*.js'
+    'src/_init.js',
+    'src/clean.js',
+    // Libraries
+    'src/lib/*.js',
+    'src/assets/*.js',
+    // Watch & Default
+    'src/watch.js',
+    'src/default.js'
   ])
     .pipe(concat('gulpfile.js'))
     .pipe(gulp.dest('result'));
