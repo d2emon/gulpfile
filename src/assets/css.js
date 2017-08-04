@@ -7,7 +7,7 @@ gulp.task('less', function(){
     .pipe(gulp.dest('static/css'));
 });
 
-gulp.task('css', ['bootstrap_css', 'less'], function(){
+gulp.task('css', ['bootstrap:css', 'fa:css', 'less'], function(){
   return gulp.src('assets/css/*.css')
     .pipe(csso())
     .pipe(gulp.dest('static/css'));
